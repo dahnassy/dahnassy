@@ -1,6 +1,7 @@
 Aluno de Ciência da Computação na Universidade de Brasília
 Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselho Federal de Odontologia.
  
+
 <div>
     <style type="text/css">
         
@@ -14,21 +15,23 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             
             width: 600px; 
             height: 1779px;
+			
+			
             
         }
 
         #bv{
             color:#fff;
             position: absolute;
-            top: 150px;
-            left: 60px;
+            top: 160px;
+            left: 720px;
         }
 
         #texto1{
             color:#fff;
             position: absolute;
             top: 450px;
-            left: 40px;
+            left: 690px;
             text-align: justify;
         }
 
@@ -36,7 +39,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#fff;
             position: absolute;
             top: 550px;
-            left: 40px;
+            left: 690px;
             text-align: justify;
         }
 
@@ -44,7 +47,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 810px;
-            left: 40px;
+            left: 690px;
             text-align: justify;
         }
 
@@ -52,7 +55,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 870px;
-            left: 80px;
+            left: 700px;
             text-align: justify;
         }
 
@@ -60,7 +63,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 950px;
-            left: 80px;
+            left: 700px;
             text-align: justify;
         }
 
@@ -68,7 +71,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 1030px;
-            left: 80px;
+            left: 700px;
             text-align: justify;
         }
 
@@ -76,7 +79,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 870px;
-            left: 350px;
+            left: 960px;
             text-align: justify;
         }
 
@@ -84,7 +87,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 950px;
-            left: 350px;
+            left: 960px;
             text-align: justify;
         }
 
@@ -92,7 +95,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 1030px;
-            left: 350px;
+            left: 960px;
             text-align: justify;
         }
 
@@ -100,7 +103,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             color:#000;
             position: absolute;
             top: 1130px;
-            left: 40px;
+            left: 690px;
             text-align: justify;
         }
 
@@ -114,7 +117,7 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
 
             position: absolute;
             top: 1220px;
-            left: 200px;
+            left: 850px;
 
 
         }
@@ -123,26 +126,30 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
             
             position: absolute;
             
-            left: 0px;
+            width: 600px; 
+            height: 1779px;
+			left: 652px;
+			top: 0px;
+			
             
         }
 
         #mais{
             position: absolute;
-            left: -15px;
+            left: 630px;
             top: -20px;
         }
 
         .icons{
             position: absolute;
-            left: -5px;
+            left: 620px;
             top: -20px;;
         }
 
 
     </style>
 
-<a href="https://btg.cfo.org.br/"><img src='https://btg.cfo.org.br/images/email/body.png' /></a>
+<center><a href="https://btg.cfo.org.br/"><img src='https://btg.cfo.org.br/images/email/body.png' /></a></center>
 
 <div id="bv">
     <h1> Olá [Nome].<br>Como vai?</h1>
@@ -218,3 +225,5 @@ Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselh
     <img src='https://btg.cfo.org.br/images/email/footer.png' id="footer"/>
 
 </div>
+
+
