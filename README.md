@@ -2,228 +2,133 @@ Aluno de Ciência da Computação na Universidade de Brasília
 Estagiário na área de desenvolvimento de software no Banco do Brasil e Conselho Federal de Odontologia.
  
 
-<div>
-    <style type="text/css">
-        
-        *{
-            font-family: 'Montserrat', sans-serif;
-            padding: 0;
-            margin: 0;
-        }
-         
-        #fundo{
-            
-            width: 600px; 
-            height: 1779px;
-			
-			
-            
-        }
 
-        #bv{
-            color:#fff;
-            position: absolute;
-            top: 160px;
-            left: 720px;
-        }
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <br>
+  Markdownify
+  <br>
+</h1>
 
-        #texto1{
-            color:#fff;
-            position: absolute;
-            top: 450px;
-            left: 690px;
-            text-align: justify;
-        }
+<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
-        #texto2{
-            color:#fff;
-            position: absolute;
-            top: 550px;
-            left: 690px;
-            text-align: justify;
-        }
+<p align="center">
+  <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+         alt="Gitter">
+  </a>
+  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
 
-        #texto3{
-            color:#000;
-            position: absolute;
-            top: 810px;
-            left: 690px;
-            text-align: justify;
-        }
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-        #texto4{
-            color:#000;
-            position: absolute;
-            top: 870px;
-            left: 700px;
-            text-align: justify;
-        }
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-        #texto5{
-            color:#000;
-            position: absolute;
-            top: 950px;
-            left: 700px;
-            text-align: justify;
-        }
+## Key Features
 
-        #texto6{
-            color:#000;
-            position: absolute;
-            top: 1030px;
-            left: 700px;
-            text-align: justify;
-        }
+* LivePreview - Make changes, See changes
+  - Instantly see what your Markdown documents look like in HTML as you create them.
+* Sync Scrolling
+  - While you type, LivePreview will automatically scroll to the current location you're editing.
+* GitHub Flavored Markdown  
+* Syntax highlighting
+* [KaTeX](https://khan.github.io/KaTeX/) Support
+* Dark/Light mode
+* Toolbar for basic Markdown formatting
+* Supports multiple cursors
+* Save the Markdown preview as PDF
+* Emoji support in preview :tada:
+* App will keep alive in tray for quick usage
+* Full screen mode
+  - Write distraction free.
+* Cross platform
+  - Windows, macOS and Linux ready.
 
-        #texto7{
-            color:#000;
-            position: absolute;
-            top: 870px;
-            left: 960px;
-            text-align: justify;
-        }
+## How To Use
 
-        #texto8{
-            color:#000;
-            position: absolute;
-            top: 950px;
-            left: 960px;
-            text-align: justify;
-        }
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-        #texto9{
-            color:#000;
-            position: absolute;
-            top: 1030px;
-            left: 960px;
-            text-align: justify;
-        }
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
 
-        #texto10{
-            color:#000;
-            position: absolute;
-            top: 1130px;
-            left: 690px;
-            text-align: justify;
-        }
+# Go into the repository
+$ cd electron-markdownify
 
-        button{
-            border: none;
-            border-radius: 20px;
-            height: 40px;
-            width: 200px;
-            color:#ffff;
-            background: rgb(78, 108, 136);
+# Install dependencies
+$ npm install
 
-            position: absolute;
-            top: 1220px;
-            left: 850px;
+# Run the app
+$ npm start
+```
+
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 
-        }
+## Download
 
-        #footer{
-            
-            position: absolute;
-            
-            width: 600px; 
-            height: 1779px;
-			left: 652px;
-			top: 0px;
-			
-            
-        }
+You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
 
-        #mais{
-            position: absolute;
-            left: 630px;
-            top: -20px;
-        }
+## Emailware
 
-        .icons{
-            position: absolute;
-            left: 620px;
-            top: -20px;;
-        }
+Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Electron](http://electron.atom.io/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [showdown](http://showdownjs.github.io/showdown/)
+- [CodeMirror](http://codemirror.net/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
+- [highlight.js](https://highlightjs.org/)
+
+## Related
+
+[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+
+## Support
+
+<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+<p>Or</p> 
+
+<a href="https://www.patreon.com/amitmerchant">
+	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## You may also like...
+
+- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
+- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+
+## License
+
+MIT
+
+---
+
+> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
+> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
 
-    </style>
-
-<center><a href="https://btg.cfo.org.br/"><img src='https://btg.cfo.org.br/images/email/body.png' /></a></center>
-
-<div id="bv">
-    <h1> Olá [Nome].<br>Como vai?</h1>
-    </div>
-     
-    <div id="texto1">
-     <p>O <b>CFO</b> e o <b>BTG+ business</b> se uniram para oferecer 
-        os melhores<br> benefiícios para você e o seu negócio. Está à procura de uma
-        <br> conta completa para a gestão financeira do seu consultório?</p>
-    </div>
-
-    <div id="texto2">
-        <p>Conheça a conta digital PJ<br>
-        do BTG+ business. Com ela,<br>
-        você <b>não paga taxa mensal<br>
-        de manutenção</b>
-        <br> e tem acesso a uma <b>plataforma<br>
-        100% digital</b> e <b>segura.</b>
-
-
-    </div>
-
-    <p id="texto3">Com a conta PJ do BTG, você pode:</p>
-
-    <p id="texto4">Transferir pelo Pix de <br>
-    forma illimitada, 24 horas<br>
-    por dia e sem custo
-    </p>
-
-    <p id="texto5">Realizar e aprovar<br>
-    seus pagamentos<br>
-    em um único lugar
-    </p>
-
-    <p id="texto6">Controlar as entradas e<br>
-    saídas do seu caixa, com<br>
-    limites personalizados
-    </p>
-
-    <p id="texto7">Cadastrar chaves Pix e<br>
-    emitir QR Code para<br>
-    receber suas consultas
-    </p>
-
-    <p id="texto8">Antecipar online as suas<br>
-    vendas no cartão das principais<br>
-    maquinas do mercado
-    </p>
-
-    <p id="texto9">Realizar as transações <br>
-        pela plataforma web ou <br>
-        pelo próprio aplicativo
-    </p>
-
-    <p id="texto10">Que tal começar agora a inovar o seu jeito de fazer negócio?</p>
-
-    <a href="https://btg.cfo.org.br/"><button>Abra a sua conta</button></a>
-
-    <img id ="mais" src='https://btg.cfo.org.br/images/email/mais.png' />
-
-    <img src='https://btg.cfo.org.br/images/email/24.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/antecipar.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/cadeado.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/dinheiro.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/web.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/pagamento.png' class='icons'/>
-
-    <img src='https://btg.cfo.org.br/images/email/footer.png' id="footer"/>
-
-</div>
 
 
